@@ -1,0 +1,92 @@
+.Navbar {
+    background-color: #333;
+  }
+  
+  .NavLink {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .NavLink:hover {
+    background-color: #555;
+  }
+  
+  .logo {
+    margin: 0;
+  }
+  
+  .title {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .navbar-toggler-icon {
+    color: #fff;
+  }
+  
+  .collapse {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .ul {
+    padding-left: 0;
+  }
+  
+  .li {
+    list-style-type: none;
+  }
+  
+  .cart {
+    color: #fff;
+  }
+  
+  .filter {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  
+  .items {
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  
+  .items:last-child {
+    margin-right: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .collapse.show {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      background-color: #333;
+      position: absolute;
+      top: 100%;
+      width: 100%;
+      left: 0;
+    }
+  
+    .NavLink {
+      display: block;
+      padding: 0.5rem 1rem;
+    }
+  
+    .ul {
+      margin-top: 1rem;
+    }
+  
+    .items {
+      margin-right: 0;
+      margin-bottom: 0.5rem;
+    }
+  }
+  
